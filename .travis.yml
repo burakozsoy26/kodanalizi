@@ -1,0 +1,13 @@
+addons:
+  sonarcloud:
+    organization: "berkdulger-github" # the key of the org you chose at step #3
+    token:
+      secure: "f109eeaaff1f6702a4951590b9dcffced388be71" # encrypted value of your token
+jdk:
+  - oraclejdk9
+script:
+  - mvn clean verify sonar sonar Pcovarage -Dsonar.projectKey=burak_1b06c0554896e5bd3459d463eac676fa58175c35
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'

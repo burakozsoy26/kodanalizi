@@ -1,0 +1,6 @@
+
+Xsquid:S3066"<Lower the visibility of this setter or remove it altogether.(ÌŞ¾ûÿÿÿÿ
+†"squid:ClassVariableVisibilityCheck"XMake countryCount a static final constant or non-public and provide accessors if needed.(ëåÒà
+:squid:S3066"#Lower the visibility of this field.(ëåÒà
+†"squid:ClassVariableVisibilityCheck	"YMake countryCount2 a static final constant or non-public and provide accessors if needed.(”æ©P
+9squid:S3066	"#Lower the visibility of this field.(”æ©P
